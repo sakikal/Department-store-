@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled11.ipynb",
+      "private_outputs": true,
+      "provenance": [],
+      "authorship_tag": "ABX9TyMVSsuvkvxZpbJHrKuXTM41",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sakikal/Department-store-/blob/main/Kik's%20is%20back%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "kNo1t48YTGSZ"
+      },
+      "outputs": [],
+      "source": [
+        "//LEARNPROGRAMO-PROGRAMMING MADE SIMPLE\n",
+        "#include<stdio.h>\n",
+        "#include<conio.h>\n",
+        "#include<stdlib.h>\n",
+        "#include<string.h>\n",
+        "#include<ctype.h>\n",
+        "#include<windows.h>\n",
+        "\n",
+        "#define ANS 15\n",
+        "#define ACS 4\n",
+        "COORD coord= {0,0}; // this is global variable\n",
+        "void gotoxy(int x,int y)\n",
+        "{\n",
+        "    coord.X=x;\n",
+        "    coord.Y=y;\n",
+        "    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);\n",
+        "}\n",
+        "/*declaration of checking functions*/\n",
+        "void c_code(char[]);\n",
+        "int check(char[]);"
+      ]
+    }
+  ]
+}
